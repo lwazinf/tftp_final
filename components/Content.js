@@ -11,48 +11,30 @@ const Content = () => {
         <div className={styles.container}>
             <div className={styles.content}>
                 <div className={styles.brands}></div>
-                <div className={styles.bigContent}>Theme Park Packages</div>
-                
-                {/* <div className={styles.flick}> */}
-                    {/* <Flickity
-                        className={'carousel'} // default ''
-                        elementType={'div'} // default 'div'
-                        options={flickityOptions} // takes flickity options {}
-                        disableImagesLoaded={false} // default false
-                        reloadOnUpdate // default false
-                        static // default false
-                        >
-                        <div className={styles.flick}>
-                            <img src="/assets/hero.jpg"/>
-                        </div>
-                        <div className={styles.flick}>
-                            <img src="/assets/range.jpg"/>
-                        </div>
-                    </Flickity> */}
-                {/* </div> */}
-
+                <div className={styles.bigContent}>Group packages</div>                
+                <div className={styles.smallContent}>Find the right experience for your friends & family to enjoy!</div>                
                 <div className={styles.rowContent}>
                     <div className={styles.contentItem}>
-                        <div className={styles.contentImage}>
+                        <div className={styles.contentImage1}>
                         </div>
                         <div className={styles.imageText}>
                             <p className={styles.imageTextHeading}>
-                                TEAM BUILDING PACKAGE
+                                {/* TEAM BUILDING PACKAGE */}
                             </p>
                             <p className={styles.imageTextSub}>
-                                Ndolorem ipsum quia dolor sit amet, consectetur, adipisci velit..
+                                {/* Ndolorem ipsum quia dolor sit amet, consectetur, adipisci velit.. */}
                             </p>
                         </div>
                     </div>
                     <div className={styles.contentItem}>
-                        <div className={styles.contentImage}>
+                        <div className={styles.contentImage2}>
                         </div>
                         <div className={styles.imageText}>
                             <p className={styles.imageTextHeading}>
-                                FAMILY PACKAGE
+                                {/* FAMILY PACKAGE */}
                             </p>
                             <p className={styles.imageTextSub}>
-                                Ndolorem ipsum quia dolor sit amet, consectetur, adipisci velit..
+                                {/* Ndolorem ipsum quia dolor sit amet, consectetur, adipisci velit.. */}
                             </p>
                         </div>
                     </div>

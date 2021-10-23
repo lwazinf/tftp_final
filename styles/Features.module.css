@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -50px;
+
+    width: 1400px;
+
+    /* background-color: red; */
+}
+
+.features {
+    width: 100%;
+    min-height: 200px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    bottom: 50px;
+
+    /* background-color: white; */
+}
+  
+.feature1 {
+    width: 33.33%;
+    height: 400px;
+    background-color: white;
+
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+
+    overflow: hidden;
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+    position: relative;
+    top: -15px;
+}
+
+.feature1_top {
+    width: 100%;
+    height: 250px;
+    /* background-color: blue; */
+    background-image: url("/assets/parking.jpg");
+    background-size: cover;
+    background-position: 0px -220px;
+}
+
+.feature1_bottom {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+}
+  
+.feature2 {
+    width: 36.33%;
+    height: 450px;
+    background-color: white;
+
+    margin-left: 8px;
+    margin-right: 8px;
+
+    overflow: hidden;
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.feature2_top {
+    width: 100%;
+    height: 275px;
+    /* background-color: blue; */
+    background-image: url("/assets/cards.jpg");
+    background-size: cover;
+}
+
+.feature2_bottom {
+    width: 100%;
+    height: 175px;
+    background-color: white;
+}
+  
+.feature3 {
+    width: 33.33%;
+    height: 400px;
+    background-color: white;
+
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+
+    overflow: hidden;
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+    position: relative;
+    top: -15px;
+}
+
+.feature3_top {
+    width: 100%;
+    height: 250px;
+    /* background-color: blue; */
+    background-image: url("/assets/phone.jpg");
+    background-size: cover;
+    background-position: 0px -180px;
+}
+
+.feature3_bottom {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+}
+
+.featureHeading {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+
+    letter-spacing: -1px;
+
+    position: relative;
+    top: -90px;
+}
+
+.featureSub {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: right;
+    color: black;
+
+    letter-spacing: 0.5px;
+
+    position: relative;
+    top: -90px;
+}

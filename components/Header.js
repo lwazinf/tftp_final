@@ -1,9 +1,6 @@
 import styles from '../styles/Header.module.css'
 import Image from 'next/image'
 
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
 const Header = () => {
     return (
         <div className={styles.container}>

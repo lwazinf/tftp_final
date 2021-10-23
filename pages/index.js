@@ -1,9 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import styles from '../styles/Home.module.css'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
+import Footer from '../components/Footer'
 import Content from '../components/Content'
-import styles from '../styles/Home.module.css'
+import Features from '../components/Features'
 
 export default function Home() {
   return (
@@ -18,7 +20,10 @@ export default function Home() {
         <Header />
         <Hero />
         <Content />
+        <Features />
       </main>
+
+      <Footer />
 
     </div>
   )
