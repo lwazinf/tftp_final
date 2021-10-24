@@ -16,6 +16,7 @@ const Footer = () => {
                     <div className={styles.footerColSub}>About Ten Flags</div>
                     <div className={styles.footerColSub}>Downloads</div>
                     <div className={styles.footerColSub}>Functions</div>
+                    <div className={styles.footerColSub}>Partners</div>
                     <div className={styles.footerColSub}>Careers</div>
                 </div>
                 <div className={styles.footerCol}></div>
