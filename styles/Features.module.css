@@ -61,6 +61,17 @@
     height: 150px;
     background-color: white;
 }
+
+.feature1Overlay {
+    width: 100%;
+    height: 250px;
+
+    background: rgb(75,163,4);
+    background: -moz-linear-gradient(37deg, rgba(75,163,4,0.6936975473783263) 0%, rgba(0,0,0,0) 65%);
+    background: -webkit-linear-gradient(37deg, rgba(75,163,4,0.6936975473783263) 0%, rgba(0,0,0,0) 65%);
+    background: linear-gradient(37deg, rgba(75,163,4,0.6936975473783263) 0%, rgba(0,0,0,0) 65%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4ba304",endColorstr="#000000",GradientType=1); 
+}
   
 .feature2 {
     width: 36.33%;
@@ -88,6 +99,17 @@
     height: 175px;
     background-color: white;
 }
+
+.feature2Overlay {
+    width: 100%;
+    height: 275px;
+
+    background: rgb(208,167,22);
+    background: -moz-linear-gradient(37deg, rgba(208,167,22,0.6936975473783263) 0%, rgba(0,0,0,0) 65%);
+    background: -webkit-linear-gradient(37deg, rgba(208,167,22,0.6936975473783263) 0%, rgba(0,0,0,0) 65%);
+    background: linear-gradient(37deg, rgba(208,167,22,0.6936975473783263) 0%, rgba(0,0,0,0) 65%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d0a716",endColorstr="#000000",GradientType=1); 
+}
   
 .feature3 {
     width: 33.33%;
@@ -112,6 +134,17 @@
     background-image: url("/assets/phone.jpg");
     background-size: cover;
     background-position: 0px -180px;
+}
+
+.feature3Overlay {
+    width: 100%;
+    height: 250px;
+
+    background: rgb(43,200,176);
+    background: -moz-linear-gradient(37deg, rgba(43,200,176,0.6936975473783263) 0%, rgba(0,0,0,0) 65%);
+    background: -webkit-linear-gradient(37deg, rgba(43,200,176,0.6936975473783263) 0%, rgba(0,0,0,0) 65%);
+    background: linear-gradient(37deg, rgba(43,200,176,0.6936975473783263) 0%, rgba(0,0,0,0) 65%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2bc8b0",endColorstr="#000000",GradientType=1);  
 }
 
 .feature3_bottom {

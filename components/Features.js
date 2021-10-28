@@ -13,15 +13,21 @@ const Features = () => {
 
             <div className={styles.features}>
                 <div className={styles.feature1}>
-                    <div className={styles.feature1_top}></div>
+                    <div className={styles.feature1_top}>
+                        <div className={styles.feature1Overlay}></div>
+                    </div>
                     <div className={styles.feature1_bottom}></div>
                 </div>
                 <div className={styles.feature2}>
-                    <div className={styles.feature2_top}></div>
+                    <div className={styles.feature2_top}>
+                        <div className={styles.feature2Overlay}></div>
+                    </div>
                     <div className={styles.feature2_bottom}></div>
                 </div>
                 <div className={styles.feature3}>
-                    <div className={styles.feature3_top}></div>
+                    <div className={styles.feature3_top}>
+                        <div className={styles.feature3Overlay}></div>
+                    </div>
                     <div className={styles.feature3_bottom}></div>
                 </div>
             </div>
