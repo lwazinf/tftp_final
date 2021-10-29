@@ -27,21 +27,7 @@ const Header = () => {
                     <p className={styles.hudItem}>About</p>
                 </Link>
             </div>
-            <div className={styles.misc}>
-
-                {/* <button className={styles.button_68} role="button">Plan<br/>Ahead</button> */}
-
-                <a target="_blank" href="https://web.facebook.com/pg/tenflagz" rel="noopener noreferrer">
-                    <Image src={"/assets/facebook.png"} alt={"logo"} height={50} width={50} />
-                </a>
-                <a target="_blank" href="https://twitter.com/tenflags_sa" rel="noopener noreferrer">
-                    <Image src={"/assets/twitter.png"} alt={"logo"} height={50} width={50} />
-                </a>
-                <a target="_blank" href="https://www.instagram.com/tenflagsthemepark" rel="noopener noreferrer">
-                    <Image src={"/assets/instagram.png"} alt={"logo"} height={50} width={50} />
-                </a>
-
-            </div>
+            
         </ div>
     );
 }

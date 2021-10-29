@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+
 .container {
     display: flex;
     flex-direction: row;
@@ -9,6 +11,21 @@
 
     background-color: #232b2b;
     background-image: url('/dark_stripes.png');
+}
+
+._social {
+  transition: all 2s;
+  filter: invert(100%);
+  margin-right: 20px;
+  position: relative;
+  left: 250px;
+  top: -10px;
+  opacity: 0.5;
+}
+
+._social:hover {
+  transition: all 1s;
+  opacity: 1;
 }
 
 .main {
@@ -32,7 +49,7 @@
     justify-content: flex-start;
     padding: 30px;
     
-    width: 23.33%;
+    width: 15.33%;
     height: 150px;
 
     /* background-color: red; */
@@ -41,23 +58,24 @@
 .footerCol2 {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+
+    text-align: left;
     padding: 30px;
     
     width: 23.33%;
     height: 150px;
 
     position: relative;
-    top: -18px;
-    left: 0px;
+    left: 80px;
 
     /* background-color: red; */
 }
 
 .footerColHeading {
     font-family: 'Oswald', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 500;
     margin-bottom: 4px;
 
@@ -91,13 +109,27 @@
 }
 
 .logo {
-    height: 150px;
-    width: 100%;
+  transition: all 2s;
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 35px;
+  color: white;
+  
+  height: 30px;
+  
+  position: relative;
+  right: 105px;
+  top: -17px;
+}
+
+.logo:hover {
+  transition: all 1s;
+  color: #ff5900;
+}
+
+.footerLoc {
+  position: relative;
+  top: 5px;
 }
 
 /* CSS */
@@ -133,8 +165,12 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
+    position: relative;
+    left: 150px;
+    top: -13px;
   
-    margin-left: -100px;
+    /* margin-left: -20px; */
     margin-top: 10px;
   }
   
