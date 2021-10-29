@@ -1,6 +1,9 @@
 import styles from '../styles/Header.module.css'
 import Image from 'next/image'
-import Link from 'next/link'
+
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
+
 
 const Header = () => {
     return (
@@ -11,14 +14,17 @@ const Header = () => {
                 </div>
             </div>
             <div className={styles.hud}>
-                <Link href="/" passHref={true}>
+                <Link activeClass="active" className="hero" to="hero" spy={true} smooth={true} offset={-150} duration={500}>
                     <p className={styles.hudItem}>Home</p>
                 </Link>
-                <Link href="/blog" passHref={true}>
+                <Link activeClass="active" className="activities" to="activities" spy={true} smooth={true} offset={-200} duration={500}>
+                    <p className={styles.hudItem}>Activities</p>
+                </Link>
+                <Link activeClass="active" className="blog" to="blog" spy={true} smooth={true} offset={-150} duration={500}>
                     <p className={styles.hudItem}>Blog</p>
                 </Link>
-                <Link href="/about" passHref={true}>
-                    <p className={styles.hudItem}>About </p>
+                <Link activeClass="active" className="about" to="about" spy={true} smooth={true} offset={-220} duration={500}>
+                    <p className={styles.hudItem}>About</p>
                 </Link>
             </div>
             <div className={styles.misc}>

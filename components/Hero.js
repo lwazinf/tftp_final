@@ -1,9 +1,11 @@
 import styles from '../styles/Hero.module.css'
 import Image from 'next/image'
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 const Hero = () => {
     return ( 
         <div className={styles.container}>
+            <Element name="hero" className="element"></Element>
             <div className={styles.hero}>
                 <div className={styles.heroShade}>
                     <div className={styles.heroText}>

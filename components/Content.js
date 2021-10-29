@@ -5,11 +5,14 @@ import AwesomeSlider from 'react-awesome-slider';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import 'react-awesome-slider/dist/styles.css';
 
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 const Content = () => {
     return ( 
         <div className={styles.container}>
+            <Element name="activities" className="element"></Element>
             <div className={styles.content}>
                 <div className={styles.brands}></div>
 

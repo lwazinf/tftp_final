@@ -1,8 +1,11 @@
 import styles from '../styles/Features.module.css'
 
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
 const Features = () => {
     return ( 
         <div className={styles.container}>
+            <Element name="about" className="element"></Element>
             <div className={styles.featureHeading}>
                 The little things matter
             </div>

@@ -12,17 +12,17 @@
     margin-top: 0px; 
 }
 
-._Heading {
+._heading {
     font-family: 'Oswald', sans-serif;
     font-size: 40px;
     font-weight: 700;
 
     letter-spacing: -1px;
 
-    margin-bottom: 3px;
+    margin-bottom: 0px;
 }
 
-._Sub {
+._sub {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -31,5 +31,5 @@
 
     letter-spacing: 0.5px;
 
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
