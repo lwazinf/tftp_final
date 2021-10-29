@@ -5,7 +5,14 @@ const Food = () => {
     return ( 
         <div className={styles.container}>
             <div className={styles.foodImage}>
-                <div className={styles.foodOverlay}></div>
+                <div className={styles.foodOverlay}>
+                    <div className={styles.bigHeroText}>
+                        TEASE YOUR TASTEBUDS
+                    </div>
+                    <div className={styles.smallHeroText}>
+                        BLOG PICS
+                    </div>
+                </div>
             </div>
         </div>
      );

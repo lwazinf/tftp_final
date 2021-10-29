@@ -80,14 +80,14 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
     font-weight: 400;
-    text-align: center;
+    text-align: left;
     color: white;
 
     letter-spacing: 0.5px;
 
     position: relative;
     top: 10px;
-    left: -40px;
+    left: -100px;
 }
 
 .logo {
@@ -135,7 +135,7 @@
     justify-content: center;
   
     margin-left: -100px;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   
   .button_5 {

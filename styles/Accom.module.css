@@ -34,3 +34,46 @@
     background: linear-gradient(37deg, rgba(208,167,22,0.6936975473783263) 0%, rgba(0,0,0,0) 65%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d0a716",endColorstr="#000000",GradientType=1); 
 }
+
+.bigHeroText {
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+
+    letter-spacing: -2px;
+
+    margin-left: 20px;
+
+    color: white;
+    opacity: 0.8;
+    
+    /* background-color: blue; */
+}
+
+.smallHeroText {
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+
+    letter-spacing: 1px;
+
+    margin-left: 25px;
+    position: relative;
+    top: 110px;
+
+    opacity: 0.8;
+    color: white;
+    /* background-color: blue; */
+}
