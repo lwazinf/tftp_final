@@ -71,8 +71,8 @@
     opacity: 1;
 
     height: 80px;
-    width: 250px;
-    margin: 10px;
+    width: 220px;
+    margin: 5px;
 
     position: relative;
     top: 100px;
@@ -91,8 +91,8 @@
     opacity: 1;
 
     height: 80px;
-    width: 250px;
-    margin: 10px;
+    width: 220px;
+    margin: 5px;
 
     position: relative;
     top: 100px;
@@ -111,14 +111,26 @@
     opacity: 1;
 
     height: 80px;
-    width: 250px;
-    margin: 10px;
+    width: 220px;
+    margin: 5px;
 
     position: relative;
     top: 100px;
     right: 20px;
 
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+
+._boxImage1, ._boxImage2, ._boxImage3 {
+    transition: all 1s;
+    padding-bottom: 0px;
+}
+
+._boxImage1:hover, ._boxImage2:hover, ._boxImage3:hover {
+    transition: all 2s;
+    padding-bottom: 80px;
 }
 
 ._bigText {
