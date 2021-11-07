@@ -82,6 +82,8 @@
     letter-spacing: 1px;
 
     color: grey;
+
+    cursor: default;
 }
 
 .footerColSub {
@@ -91,7 +93,17 @@
     text-align: left;
     color: white;
 
+    /* background-color: red; */
+
     letter-spacing: 0.5px;
+
+    margin-top: 1px;
+
+    cursor: pointer;
+}
+
+.footerColSub:hover {
+  color: #ff5900;
 }
 
 .footerColSub2 {
@@ -106,6 +118,12 @@
     position: relative;
     top: 10px;
     left: -100px;
+
+    cursor: pointer;
+}
+
+.footerColSub2:hover {
+  color: #ff5900;
 }
 
 .logo {
@@ -120,6 +138,8 @@
   position: relative;
   right: 105px;
   top: -17px;
+
+  cursor: pointer;
 }
 
 .logo:hover {

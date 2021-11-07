@@ -10,7 +10,7 @@ const Blog = () => {
         <div className={styles.container}>
             <Element name="blog" className="element"></Element>
             <div className={styles._heading}>
-                What&apos;s happening?
+                What&apos;s happening
             </div>
             <div className={styles._sub}>
                 For those curious as to what we do at our Theme Park!
