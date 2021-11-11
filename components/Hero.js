@@ -1,5 +1,7 @@
 import styles from '../styles/Hero.module.css'
 import Image from 'next/image'
+import CTAction from '../components/CTAction'
+
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 const Hero = () => {
@@ -17,10 +19,7 @@ const Hero = () => {
                         </div>
                         <div className={styles.miniHeroText}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            {/* <div className={styles.buttonDiv}>
-                                <input type="email" id="email" className={styles.emailField} name="email" />
-                                <button className={styles.button_5} role="button">Get Notified</button>
-                            </div> */}
+                        <CTAction />
                         </div>
                         <div className={styles.holderMain}>
                             <div className={styles.holder}>

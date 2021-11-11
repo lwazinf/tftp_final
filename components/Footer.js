@@ -1,6 +1,7 @@
 import styles from '../styles/Footer.module.css'
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import Image from 'next/image'
+import CTAction from './CTaction'
 
 const Footer = () => {
     return ( 
@@ -32,14 +33,10 @@ const Footer = () => {
                     <a href="#" className={styles.footerColSub}>Careers</a>
                 </div>
                 <div className={styles.footerColSub2}>
-                    {/* <div className={styles.buttonDiv}>
-                        <input type="email" id="email" className={styles.emailField} name="email" />
-                        <button className={styles.button_5} role="button">Get Notified</button>
-                    </div> */}
+                    <div className={styles.cta}>
+                        <CTAction />
+                    </div>
                     <div className={styles.footerColSub2}>
-                        {/* <a target="_blank" href="https://www.google.com/maps/place/Ten+Flags+Theme+Park/@-25.7632187,27.3436316,17z/data=!3m1!4b1!4m5!3m4!1s0x1ebe0590ef207d85:0x2a69f977da6948f1!8m2!3d-25.7632235!4d27.3458203" rel="noopener noreferrer">
-                            Farm Karussel, 572 Rex Rd, Rustenburg, 0300
-                        </a> */}
 
                         <a target="_blank" className={styles._social} href="https://web.facebook.com/pg/tenflagz" rel="noopener noreferrer">
                             <Image src={"/assets/facebook.png"} alt={"logo"} height={35} width={35} />

@@ -18,7 +18,7 @@
   filter: invert(100%);
   margin-right: 20px;
   position: relative;
-  top: -10px;
+  top: -20px;
   opacity: 0.5;
 }
 
@@ -115,7 +115,7 @@
     position: relative;
     top: 10px;
 
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .footerColSub2:hover {
@@ -132,7 +132,7 @@
   height: 30px;
   
   position: relative;
-  top: -17px;
+  top: -14px;
 
   cursor: pointer;
 }
@@ -233,4 +233,10 @@
     background-color: #a6b393;
     box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
     transform: translateY(0);
+  }
+
+  .cta{
+    position: relative;
+    top: -20px;
+    right: 18px;
   }
