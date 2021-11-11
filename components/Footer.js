@@ -1,7 +1,7 @@
 import styles from '../styles/Footer.module.css'
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import Image from 'next/image'
-import CTAction from './CTaction'
+import CTAction from './CTAction'
 
 const Footer = () => {
     return ( 
