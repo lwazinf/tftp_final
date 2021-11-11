@@ -70,6 +70,7 @@
     margin-top: 30px;
 
     color: rgb(23, 23, 23);
+    cursor: default;
 }
 
 .smallContent {
@@ -87,6 +88,7 @@
     letter-spacing: 0.5px;
 
     margin-top: 0px;
+    cursor: default;
 }
 
 .rowContent {

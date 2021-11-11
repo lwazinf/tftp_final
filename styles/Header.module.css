@@ -59,7 +59,7 @@
     font-weight: 600;
     color: orangered;
 
-    cursor: pointer;
+    cursor: default;
 }
 
 .misc {

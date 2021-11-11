@@ -162,6 +162,7 @@
 
     position: relative;
     top: -90px;
+    cursor: default;
 }
 
 .featureSub {
@@ -175,4 +176,5 @@
 
     position: relative;
     top: -90px;
+    cursor: default;
 }

@@ -120,6 +120,7 @@
     opacity: 0.8;
 
     /* background-color: blue; */
+    cursor: default;
 }
 
 ._smallText {
@@ -142,4 +143,5 @@
     opacity: 0.8;
     color: white;
     /* background-color: blue; */
+    cursor: default;
 }

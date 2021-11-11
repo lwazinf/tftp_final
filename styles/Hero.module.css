@@ -72,6 +72,7 @@
     margin-left: 20px;
 
     color: white;
+    cursor: default;
     /* background-color: blue; */
 }
 
@@ -93,6 +94,7 @@
     top: -160px;
     left: -28px;
 
+    cursor: default;
     color: orangered;
     /* background-color: blue; */
 }
@@ -117,6 +119,7 @@
     top: -80px;
     left: -15px;
 
+    cursor: default;
     /* color: rgb(255, 153, 116); */
     /* background-color: blue; */
 }
@@ -196,7 +199,7 @@
   font-size: 13px;
   font-weight: 400;
 
-  text-align: center;
+  text-align: left;
 
   border: none;
   overflow: auto;
