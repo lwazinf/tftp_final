@@ -4,8 +4,8 @@
 .container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
 
     width: 1200px;
     height: auto;
@@ -197,8 +197,13 @@
     /* background-color: red; */
 }
 
-/* .arrow {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 30px;
-} */
+@media (max-width: 1414px) {
+    .content {
+        width: 90%;
+    }
+
+    .slider {
+        width: 1000px;
+        height: 400px;
+    }
+}

@@ -178,3 +178,35 @@
     top: -90px;
     cursor: default;
 }
+
+@media (max-width: 1414px) {
+    .container {
+        width: 1200px;
+    }
+
+    .feature1_bottom, .feature3_bottom {
+        height: 130px;
+    }
+    .feature1Overlay, .feature3Overlay {
+        height: 230px;
+    }
+    .feature1_top, .feature3_top {
+        height: 230px;
+    }
+    .feature1, .feature3 {
+        height: 360px;
+    }
+
+    .feature2_bottom {
+        height: 155px;
+    }
+    .feature2Overlay {
+        height: 255px;
+    }
+    .feature2_top {
+        height: 255px;
+    }
+    .feature2 {
+        height: 410px;
+    }
+}

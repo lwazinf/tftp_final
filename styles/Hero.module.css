@@ -267,3 +267,24 @@
   box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
   transform: translateY(0);
 }
+
+@media (max-width: 1414px) {
+  .heroLogo, .holder, .holderMain {
+    display: none;
+  }
+
+  .hero {
+    width: 100%;
+    height: 540px;
+}
+
+.heroShade {
+    width: 100%;
+    height: 540px;    
+}
+
+.container {
+  width: 100%;
+  height: 550px;
+}
+}

@@ -16,3 +16,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@media (max-width: 1414px) {
+
+}
