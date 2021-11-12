@@ -6,12 +6,17 @@ import Features from '../components/Features'
 
 export default function Home() {
 
+  const toggle = (e) =>  {
+    blur = document.getElementById('blur');
+    blur.classList.toggle('active');
+  }
+
   return (
       <main className={styles.main}>
-        <Hero />
-        <Content />
-        <Blog />
-        <Features />
+          <Hero />
+          <Content />
+          <Blog />
+          <Features />
       </main>
   )
 }

@@ -11,10 +11,6 @@
 }
 
 ._image {
-    background-image: url('/assets/piano.jpg');
-    background-position-y: -850px;
-    background-size: cover;
-
     width: 100%;
     height: 300px;
     overflow: hidden;
