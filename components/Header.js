@@ -42,7 +42,9 @@ const Header = () => {
     return (
         <div className={styles.container}>
             <div className={styles.logo}>
-                <Image src={"/assets/tftp_logo.png"} alt={"logo"} height={123} width={123} />
+                <div className={styles.actualLogo}>
+                    <Image src={"/assets/tftp_logo.png"} alt={"logo"} height={123} width={123} />
+                </div>
             </div>
             
             <div className={styles.hud}>

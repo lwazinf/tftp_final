@@ -301,20 +301,47 @@
 
 @media (max-width: 1050px) {
   .container {
-    height: 350px;
+    height: 500px;
+    margin-top: 0px;
   }
 
-  .heroText {
+  .miniHeroText {
     display: none;
   }
 
   .hero {
-    height: 340px;
+    /* height: 400px; */
     background-position-y: bottom;
+    background-position-x: center;
     border-radius: 0px;
 }
 
   .heroShade {
-    height: 340px;
+    /* display: none; */
+  }
+}
+
+@media (max-width: 850px) {
+  .heroShade {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heroText {
+    margin-left: 0px;
+  }
+
+  .bigHeroText {
+    margin-left: 0px;
+    position: relative;
+    top: -40px;
+  }
+
+  .smallHeroText {
+    margin-left: 0px;
+    top: -190px;
+    color: orangered;
+    background-color: black;
+    height: 45px;
   }
 }

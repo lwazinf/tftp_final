@@ -137,4 +137,19 @@
     .hud {
         display: none;
     }
+
+    .container {}
+
+    .logo {
+      display: flex;
+      flex-direction: row;
+      align-items: left;
+      justify-content: left;
+  
+      background-color: transparent;
+  }
+
+  .actualLogo {
+    display: none;
+  }
   }
