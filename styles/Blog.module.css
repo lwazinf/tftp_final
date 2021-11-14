@@ -9,7 +9,10 @@
 
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0px; 
+    margin-top: 0px;
+    
+    position: relative;
+    top: -45px;
 }
 
 ._heading {
@@ -35,3 +38,7 @@
     margin-bottom: 30px;
     cursor: default;
 }
+
+@media (max-width: 1250px) {
+
+  }

@@ -240,3 +240,37 @@
     top: -20px;
     right: 18px;
   }
+
+  @media (max-width: 1250px) { 
+    .logo {
+      transition: all 2s;
+    
+      font-family: 'Bowlby One SC', cursive;
+      font-size: 30px;
+      color: white;
+      
+      height: 30px;
+      
+      position: relative;
+      top: -14px;
+    
+      cursor: pointer;
+    }
+  }
+
+  @media (max-width: 1050px) {
+    .logo {
+      transition: all 2s;
+    
+      font-family: 'Bowlby One SC', cursive;
+      font-size: 30px;
+      color: white;
+      
+      height: 30px;
+      
+      position: relative;
+      top: -14px;
+    
+      cursor: pointer;
+    }
+  }

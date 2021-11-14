@@ -268,7 +268,7 @@
   transform: translateY(0);
 }
 
-@media (max-width: 1414px) {
+@media (max-width: 1450px) {
   .heroLogo, .holder, .holderMain {
     display: none;
   }
@@ -287,4 +287,34 @@
   width: 100%;
   height: 550px;
 }
+}
+
+@media (max-width: 1250px) {
+
+  .miniHeroText {
+    top: -250px;
+    left: 410px;
+    padding-bottom: 200px;
+}
+  
+}
+
+@media (max-width: 1050px) {
+  .container {
+    height: 350px;
+  }
+
+  .heroText {
+    display: none;
+  }
+
+  .hero {
+    height: 340px;
+    background-position-y: bottom;
+    border-radius: 0px;
+}
+
+  .heroShade {
+    height: 340px;
+  }
 }

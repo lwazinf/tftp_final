@@ -36,7 +36,7 @@ const Footer = () => {
                     <div className={styles.cta}>
                         <CTAction />
                     </div>
-                    <div className={styles.footerColSub2}>
+                    <div className={styles.footerColSub2}> 
 
                         <a target="_blank" className={styles._social} href="https://web.facebook.com/pg/tenflagz" rel="noopener noreferrer">
                             <Image src={"/assets/facebook.png"} alt={"logo"} height={35} width={35} />

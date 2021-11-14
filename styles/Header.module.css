@@ -132,3 +132,9 @@
   .button_68:hover {
     box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
   }
+
+  @media (max-width: 1050px) {
+    .hud {
+        display: none;
+    }
+  }

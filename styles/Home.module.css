@@ -34,8 +34,20 @@
   }
 }
 
-@media (max-width: 1414px) {
+@media (max-width: 1450px) {
   .main {
     width: 1200px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .main {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .main {
+    width: 100%;
   }
 }

@@ -7,7 +7,7 @@
     width: 1000px;
     height: auto;
 
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 ._image {
@@ -141,3 +141,9 @@
     /* background-color: blue; */
     cursor: default;
 }
+
+@media (max-width: 1250px) {
+    .container {
+        /* width: 800px; */
+    }
+  }
