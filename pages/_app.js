@@ -1,12 +1,16 @@
-import Layout from '../components/Layout'
-import '../styles/globals.css'
+import { createContext, useState } from "react";
+import Layout from "../components/Layout";
+import "../styles/globals.css";
+import { AppContext, ContextWrapper } from "../components/Context";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
-  )
+    <ContextWrapper>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </ContextWrapper>
+  );
 }
 
-export default MyApp
+export default MyApp;

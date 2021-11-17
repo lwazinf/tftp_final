@@ -1,244 +1,288 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap");
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
 
-    width: 1400px;
+  width: 1400px;
 
-    /* background-color: red; */
+  /* background-color: red; */
 }
 
 .features {
-    width: 100%;
-    min-height: 200px;
+  width: 100%;
+  min-height: 200px;
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 
-    position: relative;
-    bottom: 50px;
+  position: relative;
+  bottom: 50px;
 
-    /* background-color: white; */
+  /* background-color: white; */
 }
-  
+
 .feature1 {
-    width: 33.33%;
-    height: 400px;
-    background-color: white;
+  width: 33.33%;
+  height: 400px;
+  background-color: white;
 
-    border-bottom-left-radius: 8px;
-    border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
 
-    overflow: hidden;
+  overflow: hidden;
 
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 
-    position: relative;
-    top: -15px;
+  position: relative;
+  top: -15px;
 }
 
 .feature1_top {
-    width: 100%;
-    height: 250px;
-    /* background-color: blue; */
-    background-image: url("/assets/parking.jpg");
-    background-size: cover;
-    background-position: 0px -220px;
+  width: 100%;
+  height: 250px;
+  /* background-color: blue; */
+  background-image: url("/assets/parking.jpg");
+  background-size: cover;
+  background-position: 0px -220px;
 }
 
 .feature1_bottom {
-    width: 100%;
-    height: 150px;
-    background-color: white;
+  width: 100%;
+  height: 150px;
+  background-color: white;
 }
 
 .feature1Overlay {
-    width: 100%;
-    height: 250px;
+  width: 100%;
+  height: 250px;
 
-    background: rgb(75,163,4);
-    background: -moz-linear-gradient(37deg, rgba(75,163,4,0.6936975473783263) 0%, rgba(0,0,0,0) 65%);
-    background: -webkit-linear-gradient(37deg, rgba(75,163,4,0.6936975473783263) 0%, rgba(0,0,0,0) 65%);
-    background: linear-gradient(37deg, rgba(75,163,4,0.6936975473783263) 0%, rgba(0,0,0,0) 65%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4ba304",endColorstr="#000000",GradientType=1); 
+  background: rgb(75, 163, 4);
+  background: -moz-linear-gradient(
+    37deg,
+    rgba(75, 163, 4, 0.6936975473783263) 0%,
+    rgba(0, 0, 0, 0) 65%
+  );
+  background: -webkit-linear-gradient(
+    37deg,
+    rgba(75, 163, 4, 0.6936975473783263) 0%,
+    rgba(0, 0, 0, 0) 65%
+  );
+  background: linear-gradient(
+    37deg,
+    rgba(75, 163, 4, 0.6936975473783263) 0%,
+    rgba(0, 0, 0, 0) 65%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4ba304",endColorstr="#000000",GradientType=1);
 }
-  
+
 .feature2 {
-    width: 36.33%;
-    height: 450px;
-    background-color: white;
+  width: 36.33%;
+  height: 450px;
+  background-color: white;
 
-    margin-left: 8px;
-    margin-right: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
 
-    overflow: hidden;
+  overflow: hidden;
 
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .feature2_top {
-    width: 100%;
-    height: 275px;
-    /* background-color: blue; */
-    background-image: url("/assets/cards.jpg");
-    background-size: cover;
+  width: 100%;
+  height: 275px;
+  /* background-color: blue; */
+  background-image: url("/assets/cards.jpg");
+  background-size: cover;
 }
 
 .feature2_bottom {
-    width: 100%;
-    height: 175px;
-    background-color: white;
+  width: 100%;
+  height: 175px;
+  background-color: white;
 }
 
 .feature2Overlay {
-    width: 100%;
-    height: 275px;
+  width: 100%;
+  height: 275px;
 
-    background: rgb(208,167,22);
-    background: -moz-linear-gradient(37deg, rgba(208,167,22,0.6936975473783263) 0%, rgba(0,0,0,0) 65%);
-    background: -webkit-linear-gradient(37deg, rgba(208,167,22,0.6936975473783263) 0%, rgba(0,0,0,0) 65%);
-    background: linear-gradient(37deg, rgba(208,167,22,0.6936975473783263) 0%, rgba(0,0,0,0) 65%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d0a716",endColorstr="#000000",GradientType=1); 
+  background: rgb(208, 167, 22);
+  background: -moz-linear-gradient(
+    37deg,
+    rgba(208, 167, 22, 0.6936975473783263) 0%,
+    rgba(0, 0, 0, 0) 65%
+  );
+  background: -webkit-linear-gradient(
+    37deg,
+    rgba(208, 167, 22, 0.6936975473783263) 0%,
+    rgba(0, 0, 0, 0) 65%
+  );
+  background: linear-gradient(
+    37deg,
+    rgba(208, 167, 22, 0.6936975473783263) 0%,
+    rgba(0, 0, 0, 0) 65%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d0a716",endColorstr="#000000",GradientType=1);
 }
-  
+
 .feature3 {
-    width: 33.33%;
-    height: 400px;
-    background-color: white;
+  width: 33.33%;
+  height: 400px;
+  background-color: white;
 
-    border-bottom-right-radius: 8px;
-    border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
 
-    overflow: hidden;
+  overflow: hidden;
 
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 
-    position: relative;
-    top: -15px;
+  position: relative;
+  top: -15px;
 }
 
 .feature3_top {
-    width: 100%;
-    height: 250px;
-    /* background-color: blue; */
-    background-image: url("/assets/phone.jpg");
-    background-size: cover;
-    background-position: 0px -180px;
+  width: 100%;
+  height: 250px;
+  /* background-color: blue; */
+  background-image: url("/assets/phone.jpg");
+  background-size: cover;
+  background-position: 0px -180px;
 }
 
 .feature3Overlay {
-    width: 100%;
-    height: 250px;
+  width: 100%;
+  height: 250px;
 
-    background: rgb(43,200,176);
-    background: -moz-linear-gradient(37deg, rgba(43,200,176,0.6936975473783263) 0%, rgba(0,0,0,0) 65%);
-    background: -webkit-linear-gradient(37deg, rgba(43,200,176,0.6936975473783263) 0%, rgba(0,0,0,0) 65%);
-    background: linear-gradient(37deg, rgba(43,200,176,0.6936975473783263) 0%, rgba(0,0,0,0) 65%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2bc8b0",endColorstr="#000000",GradientType=1);  
+  background: rgb(43, 200, 176);
+  background: -moz-linear-gradient(
+    37deg,
+    rgba(43, 200, 176, 0.6936975473783263) 0%,
+    rgba(0, 0, 0, 0) 65%
+  );
+  background: -webkit-linear-gradient(
+    37deg,
+    rgba(43, 200, 176, 0.6936975473783263) 0%,
+    rgba(0, 0, 0, 0) 65%
+  );
+  background: linear-gradient(
+    37deg,
+    rgba(43, 200, 176, 0.6936975473783263) 0%,
+    rgba(0, 0, 0, 0) 65%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2bc8b0",endColorstr="#000000",GradientType=1);
 }
 
 .feature3_bottom {
-    width: 100%;
-    height: 150px;
-    background-color: white;
+  width: 100%;
+  height: 150px;
+  background-color: white;
 }
 
 .featureHeading {
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    font-weight: 700;
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
 
-    letter-spacing: -1px;
+  letter-spacing: -1px;
 
-    position: relative;
-    top: -90px;
-    cursor: default;
+  position: relative;
+  top: -90px;
+  cursor: default;
 }
 
 .featureSub {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    text-align: right;
-    color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: right;
+  color: black;
 
-    letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
 
-    position: relative;
-    top: -90px;
-    cursor: default;
+  position: relative;
+  top: -90px;
+  cursor: default;
 }
 
 @media (max-width: 1450px) {
-    .container {
-        width: 1200px;
-    }
+  .container {
+    width: 1200px;
+  }
 
-    .feature1_bottom, .feature3_bottom {
-        height: 130px;
-    }
-    .feature1Overlay, .feature3Overlay {
-        height: 230px;
-    }
-    .feature1_top, .feature3_top {
-        height: 230px;
-    }
-    .feature1, .feature3 {
-        height: 360px;
-    }
+  .feature1_bottom,
+  .feature3_bottom {
+    height: 130px;
+  }
+  .feature1Overlay,
+  .feature3Overlay {
+    height: 230px;
+  }
+  .feature1_top,
+  .feature3_top {
+    height: 230px;
+  }
+  .feature1,
+  .feature3 {
+    height: 360px;
+  }
 
-    .feature2_bottom {
-        height: 155px;
-    }
-    .feature2Overlay {
-        height: 255px;
-    }
-    .feature2_top {
-        height: 255px;
-    }
-    .feature2 {
-        height: 410px;
-    }
+  .feature2_bottom {
+    height: 155px;
+  }
+  .feature2Overlay {
+    height: 255px;
+  }
+  .feature2_top {
+    height: 255px;
+  }
+  .feature2 {
+    height: 410px;
+  }
 }
 
 @media (max-width: 1250px) {
-    .container {
-        width: 1000px;
-    }
+  .container {
+    width: 1000px;
+  }
 
-    .feature1_bottom, .feature3_bottom {
-        height: 100px;
-    }
-    .feature1Overlay, .feature3Overlay {
-        height: 200px;
-    }
-    .feature1_top, .feature3_top {
-        height: 200px;
-    }
-    .feature1, .feature3 {
-        height: 300px;
-    }
+  .feature1_bottom,
+  .feature3_bottom {
+    height: 100px;
+  }
+  .feature1Overlay,
+  .feature3Overlay {
+    height: 200px;
+  }
+  .feature1_top,
+  .feature3_top {
+    height: 200px;
+  }
+  .feature1,
+  .feature3 {
+    height: 300px;
+  }
 
-    .feature2_bottom {
-        height: 135px;
-    }
-    .feature2Overlay {
-        height: 235px;
-    }
-    .feature2_top {
-        height: 235px;
-    }
-    .feature2 {
-        height: 370px;
-    }
+  .feature2_bottom {
+    height: 135px;
+  }
+  .feature2Overlay {
+    height: 235px;
+  }
+  .feature2_top {
+    height: 235px;
+  }
+  .feature2 {
+    height: 370px;
+  }
 }

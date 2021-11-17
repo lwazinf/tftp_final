@@ -10,10 +10,10 @@ const firebaseConfig = {
   projectId: "tftp-final",
   storageBucket: "tftp-final.appspot.com",
   messagingSenderId: "479431590466",
-  appId: "1:479431590466:web:643eba2d45235921c523db"
+  appId: "1:479431590466:web:643eba2d45235921c523db",
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const db = getFirestore();
-export { db }
+export { db };

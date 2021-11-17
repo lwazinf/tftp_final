@@ -1,4 +1,15 @@
 .container {
-    padding: 0px;
-    min-height: 100vh;
-  }
+  padding: 0px;
+  min-height: 100vh;
+}
+
+.drop {
+  background: black;
+  background: rgba(0, 0, 0, 0);
+
+  filter: blur(6px);
+  /* -o-filter:blur(6px);
+    -ms-filter:blur(6px);
+    -moz-filter:blur(6px);
+    -webkit-filter:blur(6px); */
+}
