@@ -27,9 +27,9 @@ const Blog = () => {
         cover3={["/assets/meat.jpg", "-200px", "-25px"]}
         bg={[
           "rgb(150, 18, 84)",
-          "-moz-linear-gradient(37deg, rgba(150, 18, 84, 0.6936975473783263) 0%, rgba(0, 0, 0, 0) 65%",
-          "-webkit-linear-gradient(37deg,rgba(150, 18, 84, 0.6936975473783263) 0%,rgba(0, 0, 0, 0) 65%",
-          "linear-gradient(37deg, rgba(150, 18, 84, 0.6936975473783263) 0%, rgba(0, 0, 0, 0) 65%",
+          "-moz-linear-gradient(37deg,rgba(150, 18, 84, 0.6936975473783263) 0%,rgba(0, 0, 0, 0) 65%",
+          "-webkit-linear-gradient(37deg, rgba(150, 18, 84, 0.6936975473783263) 0%, rgba(0, 0, 0, 0) 65%",
+          "linear-gradient(37deg, rgba(150, 18, 84, 0.6936975473783263) 0%, rgba(0, 0, 0, 0) 65%)",
           'progid:DXImageTransform.Microsoft.gradient(startColorstr="#961254",endColorstr="#000000",GradientType=1)',
         ]}
       />
