@@ -29,23 +29,23 @@
   align-items: center;
   justify-content: left;
 
-  background: rgb(208, 167, 22);
+  /* background: rgb(138, 201, 83);
   background: -moz-linear-gradient(
     37deg,
-    rgba(208, 167, 22, 0.6936975473783263) 0%,
+    rgba(138, 201, 83, 0.6936975473783263) 0%,
     rgba(0, 0, 0, 0) 65%
   );
   background: -webkit-linear-gradient(
     37deg,
-    rgba(208, 167, 22, 0.6936975473783263) 0%,
+    rgba(138, 201, 83, 0.6936975473783263) 0%,
     rgba(0, 0, 0, 0) 65%
   );
   background: linear-gradient(
     37deg,
-    rgba(208, 167, 22, 0.6936975473783263) 0%,
+    rgba(138, 201, 83, 0.6936975473783263) 0%,
     rgba(0, 0, 0, 0) 65%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d0a716",endColorstr="#000000",GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8ac953",endColorstr="#000000",GradientType=1); */
 }
 
 ._textSection {
@@ -69,23 +69,10 @@
   /* background: blue; */
 }
 
-._subImage1 {
-  background-image: url("/assets/couch.jpg");
-}
-
-._subImage2 {
-  background-image: url("/assets/carpet.jpg");
-}
-
-._subImage3 {
-  background-image: url("/assets/house.jpg");
-}
-
 ._subImage1,
 ._subImage2,
 ._subImage3 {
   background-size: cover;
-  background-position-y: -180px;
 
   border-radius: 5px;
   border: 3px solid rgba(255, 255, 255, 0.6);
@@ -98,6 +85,14 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+._subImage1 {
+background-position-y: -50px;
+}
+
+._subImage2 {
+  background-position-y: -10px;
+  }
+
 ._boxImage1,
 ._boxImage2,
 ._boxImage3 {
@@ -106,6 +101,7 @@
   position: relative;
   top: 103px;
   right: 20px;
+  opacity: 0.6;
 }
 
 ._boxImage1:hover,
@@ -113,6 +109,7 @@
 ._boxImage3:hover {
   transition: all 0.5s;
   padding-bottom: 80px;
+  opacity: 1;
 }
 
 ._bigText {
@@ -132,9 +129,9 @@
 
   color: white;
   opacity: 0.8;
+  cursor: default;
 
   /* background-color: blue; */
-  cursor: default;
 }
 
 ._smallText {
@@ -156,8 +153,8 @@
 
   opacity: 0.8;
   color: white;
-  /* background-color: blue; */
   cursor: default;
+  /* background-color: blue; */
 }
 
 @media (max-width: 1250px) {

@@ -24,6 +24,19 @@ const Content = () => {
       <div className={styles.content}>
         <div className={styles.brands}></div>
 
+        <div
+          style={{
+            width: "1100px",
+            height: "500px",
+            marginLeft: "auto",
+            marginRight: "auto",
+            marginTop: '20px',
+            overflow: 'hidden',
+            borderRadius: '5px',
+            boxShadow: 'rgba(0, 0, 0, 0.16) 0px 1px 4px',
+          }}
+        >
+
         <div className={styles.slider}>
           <AutoplaySlider
             play={true}
@@ -37,6 +50,23 @@ const Content = () => {
             <div data-src="/assets/team2.jpg" />
           </AutoplaySlider>
         </div>
+
+        <div
+          className={styles._overlay}
+          style={{
+            width: "1100px",
+            height: "500px",
+            position: "absolute",
+            bottom: "499px",
+            marginLeft: "auto",
+            marginRight: "auto",
+            zIndex: '99',
+            borderRadius: '5px',
+            boxShadow: 'rgba(0, 0, 0, 0.16) 0px 1px 4px',
+          }}
+        ></div>
+
+</div>
 
         <div className={styles.bigContent}>Group packages</div>
         <div className={styles.smallContent}>
