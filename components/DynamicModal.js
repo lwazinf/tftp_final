@@ -3,12 +3,12 @@ import Image from 'next/image';
 import { AppContext } from "./Context";
 import styles from "../styles/DynamicModal.module.css";
 
-const DynamicModal = () => {
+export const DynamicModal = () => {
   const { isVisible, setVisible, setInfo, modalInfo } = useContext(AppContext);
   return (
     <div
       style={{
-        transition: isVisible ? "all 0.5s" : "all 0.2s",
+        transition: isVisible ? "all 0.3s" : "all 0.1s",
         width: isVisible ? "800px" : "0px",
         height: "400px",
         pointerEvents: isVisible ? "auto" : "none",
@@ -26,4 +26,3 @@ const DynamicModal = () => {
   );
 };
 
-export default DynamicModal;

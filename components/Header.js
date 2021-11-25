@@ -67,7 +67,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className={styles.hud}>
+      {/* <div className={styles.hud}>
         <Link
           activeClass="active"
           className="hero"
@@ -179,7 +179,7 @@ const Header = () => {
             </p>
           </div>
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 };

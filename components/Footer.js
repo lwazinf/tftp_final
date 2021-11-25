@@ -6,7 +6,7 @@ import {
 import Image from "next/image";
 import CTAction from "./CTAction";
 import { AppContext, ContextWrapper } from "../components/Context";
-import { useContext } from "react";
+import { useContext } from "react"; 
 
 const Footer = () => {
   const { isVisible, setVisible, setInfo, modalInfo } = useContext(AppContext);

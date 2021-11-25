@@ -14,12 +14,12 @@ const Features = () => {
   return (
     <div className={styles.container}>
       <Element name="about" className="element"></Element>
-      <div className={styles.featureHeading}>The little things matter</div>
+      {/* <div className={styles.featureHeading}>The little things matter</div> */}
 
-      <div className={styles.featureSub}>
+      {/* <div className={styles.featureSub}>
         The Ten Flags Theme Park staff give you seamless service due to their
         attention to detail..
-      </div>
+      </div> */}
 
       <div className={styles.features}>
         <div className={styles.feature1}>

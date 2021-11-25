@@ -9,10 +9,18 @@
 
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0px;
+
+  min-height: 300px;
 
   position: relative;
-  top: -45px;
+    top: -100px;
+}
+
+._row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 ._heading {

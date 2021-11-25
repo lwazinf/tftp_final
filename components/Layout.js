@@ -5,10 +5,11 @@ import Header from "./Header";
 
 import { useContext } from "react";
 import { AppContext } from "./Context";
-import DynamicModal from "./DynamicModal";
+import { DynamicModal } from "./DynamicModal";
 
 const Layout = ({ children }) => {
   const { isVisible } = useContext(AppContext);
+
   return (
     <div className={styles.container}>
       <Head>
@@ -21,15 +22,15 @@ const Layout = ({ children }) => {
       </Head>
 
       <main className={styles.main}>
-        <Header /> 
+        {/* <Header />  */}
         <DynamicModal />
       <div
         style={{
-          transition: isVisible ? "all 1.5s ease-out" : "all 0.2s",
+          transition: isVisible ? "all 0.1s" : "all 0s",
           width: "100%",
           background: "black",
           background: "rgba(0, 0, 0, 0)",
-          filter: isVisible ? "blur(6px)" : "blur(0px)",
+          filter: isVisible ? "blur(1px)" : "blur(0px)",
           opacity: isVisible ? "0.4" : "1",
           pointerEvents: !isVisible ? "auto" : "none",
         }}

@@ -1,0 +1,185 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -80px;
+
+  width: 100%;
+
+  z-index: 151;
+
+  position:relative;
+  bottom: 40px;
+}
+
+._detailPills {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    /* background-color: red; */
+
+    width: 1200px;
+    position: relative;
+    bottom: 80px;
+}
+
+._pill {
+    background-color: rgba(255, 255, 255, .90);
+    border-radius: 15px;
+    height: 30px;
+    min-width: 200px;
+
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: darkslategrey;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+._cardHolder {
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    
+    /* margin-top: 50px; */
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 210px;
+
+    position: relative;
+    /* top: -85px; */
+}
+
+._cardHolder:hover {
+
+}
+
+._card {
+    width: 400px;
+    height: 200px;
+    transition: all 1.5s;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin: 10px;
+    padding-top: 5px;
+    background-color: rgba(255, 255, 255, .98);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  opacity: 0.95;
+  position: relative;
+  bottom: 80px;
+  overflow: hidden;
+}
+
+._card:hover {
+    transition: all 0.2s;
+    opacity: 1;
+    /* width: 410px; */
+    height: 215px;
+    bottom: 70px;
+}
+
+._cardImage {
+    width: 390px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+._info {
+
+}
+
+._date {
+    transition: all 0.5s;
+    font-size: 13px;
+    font-weight: 200;
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    color: slategray;
+    opacity: 0;
+
+    width: 400px;
+    height: 200px;
+
+    /* background-color: red; */
+    
+    padding-top: 145px;
+    padding-left: 10px;
+    position: absolute;
+    bottom: 0px;
+}
+
+._date:hover {
+    transition: all 1s;
+    margin-bottom: 1px;
+    padding-left: 8px;
+    opacity: 1;
+}
+
+._quote {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    color: black;
+
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-left: 8px;
+}
+
+._cta {
+    width: 110px;
+    height: 35px;
+
+    margin-right: 8px;
+    margin-left: auto;
+    position: relative;
+    bottom: 75px;
+
+    border-radius: 4px;
+    background-color: orangered;
+}
+
+/* ._email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    position: relative;
+    top: -50px;
+    z-index: 100;
+}
+
+._emailBox {
+  width: 600px;
+  height: 60px;
+  border-radius: 2px;
+
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+._emailButton {
+  width: 150px;
+  height: 60px;
+  border-radius: 2px;
+
+  background-color: black;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+} */
