@@ -17,7 +17,7 @@ export default function Home() {
         {/* <Content /> */}
           <Blog />
           <InputSection />
-        {/* <Features /> */}
+        <Features />
       </main>
     </div>
   );
